@@ -91,7 +91,7 @@ workflows:
         - is_debug_mode: 'true'
         - ios_additional_params: "--release"
         - ios_codesign_identity: 'Apple Development: Tung Tran (D62M3529UP)'
-    - xcode-archive@2:
+    - xcode-archive@3:
         inputs:
         - team_id: 6Z27TKCGWF
         - force_team_id: 6Z27TKCGWF
